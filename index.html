@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanRest - Discover the Art of Peaceful Living</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">UrbanRest.</a>
+             <button class="burger" aria-label="Open menu">
+                <svg aria-hidden="true" tabindex="0" class="burger-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"></path>
+                </svg>
+            </button>
+            <div class="nav-container">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#cottages">Cottages</a></li>
+                </ul>
+                <div class="dropdown">
+                    <a href="#pages" class="dropdown-toggle">Pages +</a>
+                    <div class="dropdown-menu">
+                        <a href="#cottage-details">Cottage Details</a>
+                        <a href="#pricings">Pricings</a>
+                        <a href="#activities">Activities</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="#contact">Contact Us</a>
+                        <a href="#articles">Articles</a>
+                        <a href="#single-post">Single Post</a>
+                        <a href="#404">404</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#contact" class="contact-btn">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover the Art of Peaceful Living</h1>
+                <div class="hero-subtitle">
+                    <p>Leave the chaos behind. UrbanRest brings you closer to nature with cozy stays designed for rest, reflection, and simplicity.</p>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <span class="stat-number">230M+</span>
+                        <span class="stat-label">Loyal Customers</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">127+</span>
+                        <span class="stat-label">Cozy Cabins</span>
+                    </div>
+                </div>
+                
+                <a href="#nature" class="learn-more-btn">
+                    Learn More <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="hero-image">
+                <img src="/assets/home.png" alt="Cozy Thatched Cottage" width="777" height="530">
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="partners-content">
+            <h2>Our Partner</h2>
+            <p>Trusted by leading brands who share our passion for peaceful living.</p>
+            
+            <div class="logos-grid">
+                <div class="logo-item">
+                    <div class="logo-icon"><i class="fas fa-circle"></i></div>
+                    <span>Logoipsum</span>
+                </div>
+                <div class="logo-item">
+                    <div class="logo-icon"><i class="fas fa-wave-square"></i></div>
+                    <span>Logoipsum</span>
+                </div>
+                <div class="logo-item">
+                    <div class="logo-icon"><i class="fas fa-times"></i></div>
+                    <span>Logoipsum</span>
+                </div>
+                <div class="logo-item">
+                    <div class="logo-icon"><i class="fas fa-mountain"></i></div>
+                    <span>Logoipsum</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Living With Nature Section -->
+    <section id="nature" class="nature-section">
+        <div class="nature-container">
+            <div class="nature-content">
+                <h2>Living With Nature<br>Living Off The Crowd</h2>
+                <p>Escape into nature where quiet moments and slow living bring you back to what truly matters.</p>
+                
+                <div class="nature-stats">
+                    <div class="nature-stat">
+                        <span class="nature-stat-number">37+</span>
+                        <div class="nature-stat-label">Cozy Retreats<br>Across Nature</div>
+                    </div>
+                    <div class="nature-stat">
+                        <span class="nature-stat-number">24/7</span>
+                        <div class="nature-stat-label">Guest Support<br>Always On</div>
+                    </div>
+                    <div class="nature-stat">
+                        <span class="nature-stat-number">230M+</span>
+                        <div class="nature-stat-label">Loyal Customers<br>Worldwide</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nature-image">
+                <img src="/assets/home-photo.png" alt="Blue A-Frame Cabin in Nature">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="services-container">
+            <div class="services-content">
+                <h2>Stay Chill, We Got You Covered</h2>
+                <p>Escape the noise and unwind in our thoughtfully designed cottages where comfort meets nature in perfect harmony</p>
+                
+                <a href="#learn-more" class="services-btn">
+                    Learn More <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                         <img src="/assets/hours.png" alt="24 hours">
+                    </div>
+                    <h3>24/7 Services</h3>
+                    <p>Anytime you need us, we're just a call away day or night.</p>
+                </div>
+                
+                <div class="service-card large">
+                    <div class="service-icon">
+                        <img src="/assets/laundry.png" alt="laundry">
+                    </div>
+                    <h3>Laundry</h3>
+                    <p>Stay fresh every day with our convenient laundry service.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="/assets/food.png" alt="fork and knife">
+                    </div>
+                    <h3>Breakfast</h3>
+                    <p>Start your day with a fresh, hearty meal made with love.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discovering-peace">
+    <div class="discovering-container">
+        <div class="discovering-content">
+            <h2>Discovering Peace<br>In Nature's Simplicity</h2>
+            <p>Recharge in cozy spaces surrounded by nature where comfort, calm, and simplicity meet in every corner.</p>
+            
+            <div class="progress-stats">
+                <div class="progress-item">
+                    <div class="progress-info">
+                        <span class="progress-label">Safety Rating</span>
+                        <span class="progress-percentage">97%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill safety" data-width="97"></div>
+                    </div>
+                </div>
+                
+                <div class="progress-item">
+                    <div class="progress-info">
+                        <span class="progress-label">Quality Standards</span>
+                        <span class="progress-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill quality" data-width="90"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="discovering-image">
+            <img src="/assets/blue-house.png" alt="Blue A-Frame House in Nature">
+        </div>
+    </div>
+</section>
+
+<!-- Activities Section -->
+<section class="activities">
+    <div class="activities-container">
+        <h2 class="activities-title">There Are Many Activities<br>In Each Destination</h2>
+        
+        <div class="activities-hero">
+            <div class="hero-card">
+                <h3>Hiking With Team</h3>
+                <p>Explore scenic trails and strengthen bonds with team hiking experiences you'll never forget.</p>
+                <a href="#learn-more" class="learn-more-link">
+                    <span class="link-text">Learn More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-number">1</div>
+                <div class="activity-icon">
+                    <i class="fas fa-fish"></i>
+                </div>
+                <h3>Fishing With Family</h3>
+                <p>Cast a line, share some laughs, and create memories by the water with your loved ones.</p>
+                <a href="#learn-more" class="learn-more-link">
+                    <span class="link-text">Learn More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="activity-card">
+                <div class="activity-number">2</div>
+                <div class="activity-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Outbound With Team</h3>
+                <p>Boost teamwork through outdoor challenges, perfect for corporate or group getaways.</p>
+                <a href="#learn-more" class="learn-more-link">
+                    <span class="link-text">Learn More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="activity-card">
+                <div class="activity-number">3</div>
+                <div class="activity-icon">
+                    <i class="fas fa-bicycle"></i>
+                </div>
+                <h3>Bike Routes With Team</h3>
+                <p>Pedal through nature's beauty while enjoying a shared adventure on curated bike trails.</p>
+                <a href="#learn-more" class="learn-more-link">
+                    <span class="link-text">Learn More</span> <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Cottages Section -->
+<section class="cottages">
+    <div class="cottages-container">
+        <div class="cottages-header">
+            <h2>We Provide The Finest Cottages</h2>
+            <p>Escape the noise and unwind in our thoughtfully designed cottages<br>where comfort meets nature in perfect harmony</p>
+        </div>
+        
+        <div class="cottages-grid">
+            <div class="cottage-card cottage-1">
+                <div class="cottage-content">
+                    <h3>Woodland Grace Cottage</h3>
+                    <p>Offers a peaceful escape surrounded by nature's quiet charm.</p>
+                    <a href="#learn-more" class="learn-more-link">
+                        <span class="link-text">Learn More</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="cottage-image">
+                    <img src="/assets/1house.png" alt="Woodland Grace Cottage">
+                </div>
+            </div>
+            
+            <div class="cottage-card cottage-2">
+                <div class="cottage-image">
+                    <img src="/assets/2house.png" alt="Stonehill Haven">
+                </div>
+                <div class="cottage-content">
+                    <h3>Stonehill Haven</h3>
+                    <p>Rustic vibes meet modern comfort in this cozy stone-built countryside stay.</p>
+                    <a href="#learn-more" class="learn-more-link">
+                        <span class="link-text">Learn More</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="cottage-card cottage-3">
+                <div class="cottage-content">
+                    <h3>Lakeside Drift Cabin</h3>
+                    <p>Tucked by the water's edge, perfect for fishing, resting, and recharging.</p>
+                    <a href="#learn-more" class="learn-more-link">
+                        <span class="link-text">Learn More</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="cottage-image">
+                    <img src="/assets/3house.png" alt="Lakeside Drift Cabin">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq">
+    <div class="faq-container">
+        <div class="faq-header">
+            <h2>Got Questions?<br>We've Got Answers</h2>
+            <p>Here are some common questions our guests ask. If you still need help, feel free to reach out,<br>we're always happy to assist</p>
+        </div>
+        
+        <div class="faq-grid">
+            <div class="faq-column faq-left">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <span>What time is check-in and check-out?</span>
+                        <button class="faq-toggle">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Check-in starts at 2 PM, and check-out is before 11 AM. Early check-in or late check-out is subject to availability.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Are pets allowed in the cottage?</span>
+                        <button class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We're pet-friendly in selected cottages. Just let us know in advance so we can prepare accordingly.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is breakfast included in the booking?</span>
+                        <button class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, complimentary breakfast is included with every stay unless stated otherwise in the room details.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-column faq-right">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer free Wi-Fi?</span>
+                        <button class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Of course! High-speed Wi-Fi is available in all cottages and public areas at no extra charge.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What amenities are included in the cottage?</span>
+                        <button class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All cottages come with a private bathroom, comfy bedding, towels, toiletries, and a kitchenette. Some units also have a fireplace or hot tub.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do I cancel or reschedule my booking?</span>
+                        <button class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can manage your booking through our website or contact us directly. Cancellations made 48 hours before arrival are free of charge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="index.js"></script>
+</body>
+</html>
